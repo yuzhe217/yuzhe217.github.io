@@ -29,6 +29,23 @@
 </head>
 
 <body>
+    <!-- 弹窗 -->
+    <div class="modal" id="modal">
+      <div class="title">
+        <p class="important">提示</p>
+      </div>
+      <div class="content">
+        <span id="msg">公益模块【帮扶资金】和【收到帮扶】不参与余额明细统计。</span>
+        <br>
+      </div>
+      <div class="confirm" onclick="fnClose()">
+        <span class="close-but">我知道了</span>
+      </div>
+      <!-- <div class="confirm">
+        <span class="close-but" οnclick="fnClose(1)">不再提示</span>
+        <span class="close-but" οnclick="fnClose(2)">我知道了</span>
+      </div> -->
+    </div>
     <!--加载动画-->
     <div id="loading-box">
         <div class="loading-left-bg"></div>
