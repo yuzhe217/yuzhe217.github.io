@@ -53,7 +53,7 @@ window.addEventListener('load', function () {
             title: hello,
             message: '欢迎来到我的主页,移动端暂时不适配，请pc查看~_~'
         });
-    }, 800);
+    }, 1200);
 
     //延迟加载音乐播放器
     /*
