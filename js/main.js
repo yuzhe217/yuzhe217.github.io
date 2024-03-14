@@ -51,7 +51,7 @@ window.addEventListener('load', function () {
             timeout: 2500,
             icon: false,
             title: hello,
-            message: '欢迎来到我的主页,不可抗拒因素，15s后自动跳转'
+            message: '欢迎来到我的主页,移动端暂时不适配，请pc查看~_~'
         });
     }, 800);
 
